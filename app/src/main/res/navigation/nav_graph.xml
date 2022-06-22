@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="science.example.week5cat.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_secondActivity"
+            app:destination="@id/secondActivity" />
+        <action
+            android:id="@+id/action_mainFragment_to_applicationActivity"
+            app:destination="@id/applicationActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/secondActivity"
+        android:name="science.example.week5cat.activity.SecondActivity"
+        android:label="activity_second"
+        tools:layout="@layout/activity_second" />
+    <activity
+        android:id="@+id/applicationActivity"
+        android:name="science.example.week5cat.activity.ApplicationActivity"
+        android:label="activity_application"
+        tools:layout="@layout/activity_application" />
+</navigation>

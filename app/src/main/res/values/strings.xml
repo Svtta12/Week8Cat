@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Week5Cat</string>
+
+    <string name="app">О приложении</string>
+    <string name="textAuthor">Автор: Шитикова Светлана Михайловна</string>
+    <string name="telegram">Telegram: @Svtta_Shitikova</string>
+    <string name="github">GitHub:</string>
+    <string name="https_github">https://github.com/Svtta12</string>
+    <string name="date">Дата создания: 18.06.2022</string>
+    <string name="strength">Приложено сил: немерено!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
